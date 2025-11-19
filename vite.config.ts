@@ -35,7 +35,7 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      },
-      publicDir: 'public', // 如果使用 public 目录
+      }
+      // publicDir: 'public', // 如果使用 public 目录
     };
 });
