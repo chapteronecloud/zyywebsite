@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yiyun Zhang | Quant Finance Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              bg: {
+                DEFAULT: '#18181b', // Zinc 950
+                card: '#27272a',    // Zinc 800
+                hover: '#3f3f46',   // Zinc 700
+                modal: '#27272a',   // Zinc 800
+              },
+              accent: {
+                primary: '#2dd4bf',   // Teal 400 - Fresh and calm
+                secondary: '#99f6e4', // Teal 200
+                muted: '#115e59',     // Teal 800
+                dim: 'rgba(45, 212, 191, 0.1)'
+              },
+              text: {
+                main: '#e4e4e7',      // Zinc 200
+                muted: '#a1a1aa',     // Zinc 400
+              }
+            },
+            fontFamily: {
+              mono: ['"JetBrains Mono"', 'monospace'], // Code font
+              sans: ['"Inter"', 'sans-serif'], // Body font
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #18181b; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #3f3f46; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #52525b; 
+      }
+      body {
+        background-color: #18181b;
+        color: #e4e4e7;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
