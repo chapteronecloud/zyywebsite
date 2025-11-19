@@ -2,7 +2,7 @@
 import { DataStore, Language } from './types';
 
 // Using a placeholder image so the app looks good immediately without upload
-export const PROFILE_IMAGE = '/files/Profile Picture.jpg';
+export const PROFILE_IMAGE = 'https://raw.githubusercontent.com/chapteronecloud/zyywebsite/main/public/files/Profile Picture.jpg';
 export const PROFILE_IMAGE_SIZE = 'w-40 h-40 md:w-52 md:h-52'; // 调小尺寸
 export const PROFILE_IMAGE_FILTER = ''; 
 
