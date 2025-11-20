@@ -183,11 +183,6 @@ function App() {
                   <div className="text-accent-primary">
                     <Database size={40} strokeWidth={1.5} />
                   </div>
-                  /* {project.pdfPath && (
-                    <div className="text-text-muted group-hover:text-accent-primary transition-colors">
-                      <ExternalLink size={20} />
-                    </div>
-                  )} */
                 </div>
                 
                 <h3 className="text-xl font-bold text-gray-100 mb-2 group-hover:text-accent-primary transition-colors">
