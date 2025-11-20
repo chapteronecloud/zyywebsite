@@ -147,13 +147,6 @@ Assisted in the Low-Altitude Economy research, independently analysing two compa
         tags: ["LLM", "Python", "RAG", "FinBERT"]
       },
       {
-        title: "ETF Flow-based Sector Rotation",
-        role: "Huatai Securities",
-        period: "Sep 2024 – Jan 2025",
-        description: "Constructed a flow-based sector rotation strategy using signals extracted from 28 industry ETFs. Backtesting showed contrarian predictive power under extreme flows with a >20% annualized return.",
-        tags: ["Quant Strategy", "Backtesting", "ETF", "Python"]
-      },
-      {
         title: "Macro Risk NLP Identification System",
         role: "Core member",
         period: "May 2025 – Jun 2025",
@@ -201,7 +194,8 @@ Assisted in the Low-Altitude Economy research, independently analysing two compa
         role: "Field Researcher",
         organization: "Peking University CHARLS",
         period: "Jul 2023 - Aug 2023",
-        description: "Conducted a 2-month field survey in Yunnan. Interviewed elderly populations on health, cognition, medical insurance, and income. Analyzed data to provide feasibility suggestions for medical and elderly care policies."
+        description: "Conducted a 2-month field survey in Yunnan. Interviewed elderly populations on health, cognition, medical insurance, and income. Analyzed data to provide feasibility suggestions for medical and elderly care policies.",
+        link: "https://charls.pku.edu.cn/"
       }
     ],
     schoolActivity: [
@@ -423,7 +417,8 @@ Assisted in the Low-Altitude Economy research, independently analysing two compa
         role: "田野调查员",
         organization: "北京大学 CHARLS 项目",
         period: "2023年7月 - 2023年8月",
-        description: "在云南进行为期2个月的田野调查。运用深度访谈技巧调研老年人健康、医保及收入状况，分析数据并形成医疗养老政策可行性建议。"
+        description: "在云南进行为期2个月的田野调查。运用深度访谈技巧调研老年人健康、医保及收入状况，分析数据并形成医疗养老政策可行性建议。"，
+        link: "https://charls.pku.edu.cn/"
       }
     ],
     schoolActivity: [
